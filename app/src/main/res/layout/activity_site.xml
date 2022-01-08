@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".site"
+    android:background="@color/main"
+    android:orientation="vertical">
+
+    <View
+        android:background="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"></View>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="YUC"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:gravity="center_horizontal"></TextView>
+
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  Youtube"
+        android:textSize="12pt"
+        android:textColor="@color/white"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   '뭐든다잘하고싶은 여울컴유튜브'\n   제작한 앱, 게임 등을 영상으로 소개합니다."
+        android:textSize="6pt"
+        android:textColor="@color/white"></TextView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/yuc_youtube"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="여울컴 유튜브 바로가기"
+        android:textSize="7pt"
+        android:backgroundTint="@color/main_2"
+        android:layout_gravity="center"></Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  Homepage"
+        android:textSize="12pt"
+        android:textColor="@color/white"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   '여울컴 홈페이지'\n   동아리에 관한 구체적인 내용이 쓰여 있습니다."
+        android:textSize="6pt"
+        android:textColor="@color/white"></TextView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/yuc_Homepage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="여울컴 홈페이지 바로가기"
+        android:textSize="7pt"
+        android:backgroundTint="@color/main_2"
+        android:layout_gravity="center"></Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  facebook"
+        android:textSize="12pt"
+        android:textColor="@color/white"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   '여울컴 페이지'\n   동아리 내 활동을 소개하고 공유합니다."
+        android:textSize="6pt"
+        android:textColor="@color/white"></TextView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/yuc_facebook"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="여울컴 페이지 바로가기"
+        android:textSize="7pt"
+        android:backgroundTint="@color/main_2"
+        android:layout_gravity="center"></Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="  Instagram"
+        android:textSize="12pt"
+        android:textColor="@color/white"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   'yeoulcom'\n   동아리 내 활동을 소개하고 공유합니다."
+        android:textSize="6pt"
+        android:textColor="@color/white"></TextView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/yuc_instagram"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="(여울컴)인스타그램 바로가기"
+        android:textSize="7pt"
+        android:backgroundTint="@color/main_2"
+        android:layout_gravity="center"></Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+
+
+
+
+</LinearLayout>

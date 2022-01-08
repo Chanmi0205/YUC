@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical"
+    tools:context=".YUC_2">
+
+    <View
+        android:background="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"></View>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="YUC"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:gravity="center_horizontal"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/portfolie"
+            android:layout_width="175dp"
+            android:layout_height="297dp"
+            android:backgroundTint="@color/main_2"
+            android:text="| 01 |\n\n\n여울컴 \n포트폴리오"
+            android:textSize="8pt"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <View
+            android:background="@color/white"
+            android:layout_width="2dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"></View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/site"
+            android:layout_width="175dp"
+            android:layout_height="297dp"
+            android:backgroundTint="@color/main_2"
+            android:text="| 02 |\n\n\n여울컴 \n관련 사이트"
+            android:textSize="8pt"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white"></View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/activity"
+            android:layout_width="175dp"
+            android:layout_height="297dp"
+            android:backgroundTint="@color/main_2"
+            android:text="| 03 |\n\n\n여울컴 활동\n"
+            android:textSize="8pt"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <View
+            android:background="@color/white"
+            android:layout_width="2dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"></View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="175dp"
+            android:layout_height="297dp"
+            android:backgroundTint="@color/main_2"
+            android:text="| 04 |\n\n\n 설정 \n"
+            android:textSize="8pt"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

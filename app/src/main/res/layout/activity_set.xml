@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".set"
+    android:background="@color/main"
+    android:orientation="vertical" >
+
+    <View
+        android:background="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"></View>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="YUC"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:gravity="center_horizontal"></TextView>
+
+
+    <View
+        android:background="@color/white"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="5dp"
+            android:layout_height="30dp"></View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="글씨 색상"
+            android:textSize="10pt"
+            android:textColor="@color/white"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="5dp"
+            android:layout_height="30dp"></View>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/text_red"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/red"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/orange"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/yellow"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/green"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/sky"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/purple"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/lilac"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/main"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/black"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"></View>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="5dp"
+            android:layout_height="30dp"></View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="배경 색상"
+            android:textSize="10pt"
+            android:textColor="@color/white"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="5dp"
+            android:layout_height="30dp"></View>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/red"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/orange"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/yellow"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/green"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/sky"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/purple"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/lilac"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/main"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/black"
+            tools:ignore="SpeakableTextPresentCheck"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"></View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:text="이전"
+            android:textSize="10pt"
+            android:textColor="@color/black"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:text="저장"
+            android:textSize="10pt"
+            android:textColor="@color/black"></Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
