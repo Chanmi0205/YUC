@@ -4,16 +4,231 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".portfolie"
     android:background="@color/main"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:context=".portfolie"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <View
+        android:background="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"></View>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="여울컴 포트폴리오"
-        android:textSize="15pt"
+        android:layout_height="40dp"
+        android:text="YUC"
         android:textColor="@color/white"
-        android:gravity="center"></TextView>
+        android:textSize="10pt"
+        android:gravity="center_horizontal"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_2"
+        android:text="멤모"
+        android:textSize="8pt"></Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteY="149dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"></View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:layout_gravity="center"
+            android:textColor="@color/main"
+            android:backgroundTint="@color/white">
+        </Button>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:layout_gravity="center"
+            android:textColor="@color/main"
+            android:backgroundTint="@color/white">
+        </Button>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:layout_gravity="center"
+            android:textColor="@color/main"
+            android:backgroundTint="@color/white">
+        </Button>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:layout_gravity="center"
+            android:textColor="@color/main"
+            android:backgroundTint="@color/white">
+        </Button>
+
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <View
+            android:background="@color/white"
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"></View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="149dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
 
 </LinearLayout>
