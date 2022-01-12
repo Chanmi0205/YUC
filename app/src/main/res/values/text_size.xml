@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="text_size">
-        <item>5pt</item>
-        <item>10pt</item>
-        <item>15pt</item>
-        <item>20pt</item>
-    </string-array>
-</resources>

@@ -17,218 +17,77 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="200dp"
         android:text="YUC"
         android:textColor="@color/white"
         android:textSize="10pt"
         android:gravity="center_horizontal"></TextView>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
+    <TextView
+        android:id="@+id/app"
+        android:text="APP"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/main_2"
-        android:text="멤모"
-        android:textSize="8pt"></Button>
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#000000"
+        android:shadowDx="7"
+        android:shadowDy="4"
+        android:shadowRadius="9" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
-        tools:layout_editor_absoluteY="149dp">
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteY="10dp">
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/web"
+        android:text="WEB"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#000000"
+        android:shadowDx="7"
+        android:shadowDy="4"
+        android:shadowRadius="9" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <View
-            android:background="@color/white"
-            android:layout_width="2dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"></View>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="1"
-            android:layout_gravity="center"
-            android:textColor="@color/main"
-            android:backgroundTint="@color/white">
-        </Button>
+    <TextView
+        android:id="@+id/game"
+        android:text="GAME"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="10dp"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="2"
-            android:layout_gravity="center"
-            android:textColor="@color/main"
-            android:backgroundTint="@color/white">
-        </Button>
-
-
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="10dp"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="3"
-            android:layout_gravity="center"
-            android:textColor="@color/main"
-            android:backgroundTint="@color/white">
-        </Button>
-
-
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="10dp"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="4"
-            android:layout_gravity="center"
-            android:textColor="@color/main"
-            android:backgroundTint="@color/white">
-        </Button>
-
-
-
-
-
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-        <View
-            android:background="@color/white"
-            android:layout_width="2dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"></View>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="149dp">
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </LinearLayout>
-
-
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#000000"
+        android:shadowDx="7"
+        android:shadowDy="4"
+        android:shadowRadius="9" />
 
 
 </LinearLayout>
