@@ -41,7 +41,7 @@
             android:background="@drawable/style"
             android:gravity="center"
             android:textColor="@color/white"
-            android:text="game"></TextView>
+            android:text="Game"></TextView>
 
     </LinearLayout>
 

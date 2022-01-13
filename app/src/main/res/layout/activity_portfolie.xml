@@ -28,7 +28,7 @@
 
     <TextView
         android:id="@+id/app"
-        android:text="APP"
+        android:text="App"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
 
@@ -51,7 +51,7 @@
 
     <TextView
         android:id="@+id/web"
-        android:text="WEB"
+        android:text="Web"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
 
@@ -75,7 +75,7 @@
 
     <TextView
         android:id="@+id/game"
-        android:text="GAME"
+        android:text="Game"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
 

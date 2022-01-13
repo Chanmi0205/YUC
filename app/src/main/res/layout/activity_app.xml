@@ -41,7 +41,7 @@
             android:background="@drawable/style"
             android:gravity="center"
             android:textColor="@color/white"
-            android:text="app"></TextView>
+            android:text="App"></TextView>
 
     </LinearLayout>
 
@@ -99,6 +99,7 @@
 
 
     <TextView
+        android:id="@+id/tips"
         android:text="Tips"
         android:textColor="@color/white"
         android:textSize="10pt"

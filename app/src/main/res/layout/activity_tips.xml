@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical"
+    tools:context=".tips">
+
+    <View
+        android:background="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="YUC"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:gravity="center_horizontal"></TextView>
+
+
+    <TextView
+        android:text="Tips"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:layout_gravity="center"
+
+
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_style"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/tips_rogo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/broken_line"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layerType="software" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/style_2"
+                android:layout_gravity="center_vertical"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="10dp">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="자취"
+                android:textSize="10pt"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/broken_line"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layerType="software" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/style_2"
+                    android:layout_gravity="center_vertical"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="10dp">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="꿀팁"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/broken_line"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layerType="software" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/style_2"
+                    android:layout_gravity="center_vertical"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="10dp">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="심플"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:src="@drawable/broken_line"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layerType="software"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips"
+        android:textSize="15pt"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Tips라는 앱은 독립하는 사람이 많아져 \n이따라 일어나는 궁금증이나 문제점을 \n개선하고자 제작하게 된 어플입니다.\n(사용 방법 및 추가 설명)"
+            android:textColor="@color/white"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="제작자"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="강한준\n노현성\n박찬미\n최혜영"
+            android:layout_gravity="right"
+            android:textSize="6pt" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

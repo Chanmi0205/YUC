@@ -31,7 +31,7 @@ public class portfolie extends AppCompatActivity {
         web.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(portfolie.this, wep.class);
+                Intent intent = new Intent(portfolie.this, web.class);
                 startActivity(intent);
             }
         });

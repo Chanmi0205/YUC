@@ -10,16 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YUC">
         <activity
+            android:name=".tips"
+            android:exported="true" />
+        <activity
+            android:name=".mygrade"
+            android:exported="true" />
+        <activity
+            android:name=".web"
+            android:exported="true" />
+        <activity
             android:name=".game"
             android:exported="true" />
         <activity
-            android:name=".wep"
-            android:exported="true" />
-        <activity
             android:name=".app"
-            android:exported="true" />
-        <activity
-            android:name=".MG"
             android:exported="true" />
         <activity
             android:name=".site"
