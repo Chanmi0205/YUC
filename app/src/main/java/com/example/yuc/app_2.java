@@ -8,30 +8,30 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class app extends AppCompatActivity{
+public class app_2 extends AppCompatActivity {
 
-    private TextView tips;
-    private Button two;
+    private Button one;
+    private TextView notepad;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_app);
+        setContentView(R.layout.activity_app2);
 
-        two = findViewById(R.id.two);
-        two.setOnClickListener(new View.OnClickListener() {
+        notepad = findViewById(R.id.notepad);
+        notepad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(app.this, app_2.class);
+                Intent intent = new Intent(app_2.this, notepad.class);
                 startActivity(intent);
             }
         });
 
-        tips = findViewById(R.id.tips);
-        tips.setOnClickListener(new View.OnClickListener() {
+        one = findViewById(R.id.one);
+        one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(app.this, tips.class);
+                Intent intent = new Intent(app_2.this, app.class);
                 startActivity(intent);
             }
         });
