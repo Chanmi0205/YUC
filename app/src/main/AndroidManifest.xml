@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YUC">
         <activity
+            android:name=".timing_rogo"
+            android:exported="true" />
+        <activity
             android:name=".notepad"
             android:exported="true" />
         <activity
