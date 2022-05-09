@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YUC">
         <activity
+            android:name=".storyGame"
+            android:exported="true" />
+        <activity
+            android:name=".lunchTime"
+            android:exported="true" />
+        <activity
+            android:name=".gunDrawing"
+            android:exported="true" />
+        <activity
             android:name=".timing_rogo"
             android:exported="true" />
         <activity
@@ -20,9 +29,6 @@
             android:exported="true" />
         <activity
             android:name=".mygrade"
-            android:exported="true" />
-        <activity
-            android:name=".web"
             android:exported="true" />
         <activity
             android:name=".game"

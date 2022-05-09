@@ -41,5 +41,217 @@
         android:shadowRadius="5" />
 
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/mygrade_rogo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/broken_line"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layerType="software" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/style_2"
+                    android:layout_gravity="center_vertical"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="10dp">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="성적"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/broken_line"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layerType="software" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/style_2"
+                    android:layout_gravity="center_vertical"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="10dp">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="점수계산"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/broken_line"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layerType="software" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/style_2"
+                    android:layout_gravity="center_vertical"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="10dp">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="대입 사이트"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:src="@drawable/broken_line"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layerType="software"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MyGrade"
+            android:textSize="15pt"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 성적을 관리할 수 있는 앱으로서 계산기\n기능이 있고, 성적을 기록할 수 있는 \n기능도 있습니다. 또한 대입 사이트에 대해 \n소개하는 페이지도 있습니다."
+            android:textColor="@color/white"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="개발자"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="도지선\n양채영\n배준영\n최하랑"
+            android:layout_gravity="right"
+            android:textSize="6pt" />
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

@@ -45,53 +45,35 @@
 
     </LinearLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        tools:layout_editor_absoluteY="10dp">
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="20dp"
+      tools:layout_editor_absoluteY="10dp">
+  </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+  <Button
+      android:id="@+id/rps"
+      android:layout_gravity="center"
+      android:text="베팅 가위바위보게임"
+      android:layout_width="900px"
+      android:layout_height="150px"
+      android:background="@color/white"></Button>
 
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="20dp"
+      tools:layout_editor_absoluteY="10dp">
+  </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
-        android:text="베팅 가위바위보"
-        android:textColor="@color/white"
-        android:textSize="10pt"
-        android:layout_gravity="center"
-
-
-        android:gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_style"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        tools:layout_editor_absoluteY="10dp">
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:text="상미고 스토리게임"
-        android:textColor="@color/white"
-        android:textSize="10pt"
-        android:layout_gravity="center"
-
-        android:gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_style"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5" />
-
-
+  <Button
+      android:id="@+id/storyGame"
+      android:layout_gravity="center"
+      android:text="상미고 스토리게임"
+      android:layout_width="900px"
+      android:layout_height="150px"
+      android:background="@color/bu1"></Button>
 
 
 </LinearLayout>

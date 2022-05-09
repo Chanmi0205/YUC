@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/main"
     android:orientation="vertical"
-    tools:context=".notepad">
-
+    tools:context=".rps">
 
     <View
         android:background="@color/white"
@@ -24,7 +23,7 @@
         android:gravity="center_horizontal"></TextView>
 
     <TextView
-        android:text="멤모"
+        android:text="베팅 가위바위보"
         android:textColor="@color/white"
         android:textSize="10pt"
         android:layout_gravity="center"
@@ -62,7 +61,7 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:srcCompat="@drawable/notepad_rogo" />
+            app:srcCompat="@drawable/rps" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -95,7 +94,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="메모"
+                    android:text="베팅"
                     android:textSize="10pt"
                     android:textColor="@color/white"
                     android:gravity="center"/>
@@ -128,7 +127,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="글귀"
+                    android:text="가위바위보"
                     android:textSize="10pt"
                     android:textColor="@color/white"
                     android:gravity="center"/>
@@ -161,7 +160,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="flower"
+                    android:text="도박"
                     android:textSize="10pt"
                     android:textColor="@color/white"
                     android:gravity="center"/>
@@ -199,7 +198,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="멤모"
+            android:text="베팅 가위바위보"
             android:textSize="15pt"
             android:textColor="@color/white"
             android:textStyle="bold" />
@@ -220,7 +219,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" 간단히 필요한 내용을 메모할 수 있고 \n그 내용을 공유할 수 있는 앱입니다. \n앱의 기능으로는 글자 색과  배경 색을 \n바꿀 수 있는 기능이 존재하며 그 외에도 \n지우기, 초기화 기능이 있습니다."
+            android:text="내용설명"
             android:textColor="@color/white"
             android:textSize="10pt" />
 
@@ -246,12 +245,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="박민주\n박찬미"
+            android:text="신동민\n이서현\n이지민\n이윤수"
             android:layout_gravity="right"
             android:textSize="6pt" />
 
     </LinearLayout>
-
 
 
 

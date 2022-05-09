@@ -49,9 +49,10 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+
     <TextView
-        android:id="@+id/web"
-        android:text="Web"
+        android:id="@+id/game"
+        android:text="Game"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
 
@@ -74,8 +75,8 @@
 
 
     <TextView
-        android:id="@+id/game"
-        android:text="Game"
+        android:id="@+id/github"
+        android:text="GitHub"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
 
@@ -88,6 +89,7 @@
         android:shadowDx="7"
         android:shadowDy="4"
         android:shadowRadius="9" />
+
 
 
 </LinearLayout>

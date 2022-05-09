@@ -237,7 +237,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="제작자"
+            android:text="개발자"
             android:textStyle="bold"
             android:layout_gravity="right"
             android:textSize="10pt" />
