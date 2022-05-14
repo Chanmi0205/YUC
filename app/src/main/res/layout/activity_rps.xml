@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/main"
     android:orientation="vertical"
-    tools:context=".rps">
+    tools:context=".rps_">
 
     <View
         android:background="@color/white"
@@ -219,39 +219,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="내용설명"
+            android:text="\n 철수와 AI의 가위바위보 결과를 예측하는 게임입니다.\n\n 예측에 성공할시 베탕한 토큰에 2배를 얻고, 실패할시 베팅한 토큰을 잃습니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="신동민\n이서현\n이지민\n이윤수"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="- 개발자 - \n신동민   \n이서현   \n이지민   \n이윤수   \n"
+        android:gravity="right|bottom"
+        android:textSize="7pt" />
 
 
 </LinearLayout>

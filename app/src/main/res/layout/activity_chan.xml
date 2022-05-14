@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical"
+    tools:context=".chan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:background="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="YUC"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:gravity="center_horizontal"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="149dp">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:layout_width="400px"
+                android:layout_height="500px"
+                android:background="@drawable/chan_5"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="\n\n\n     이름 : 박찬미 \n\n     소속 : 상일미디어고등학교\n\n     취미 : 바이올린 연주하기"></TextView>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="개인정보"
+            android:gravity="center"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="   메일 : chanmi1155@naver.com"></TextView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="TMI"
+            android:gravity="center"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="   MBTI : ENTJ"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="   디스코드 : 찬미#6083"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="   좋아하는 음식 : 닭강정, 떡볶이(언제 먹어도, 하루종일 먹어도 안질림)"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="   싫어하는(+못먹는) 음식 : 케이크, 해산물, 멜론 등"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="   여가시간 : 개발, 전공공부, 바이올린 연주하기, 친구들과 놀기 등"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="   gitHub : "></TextView>
+
+            <Button
+                android:id="@+id/gitHub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/Chanmi0205"
+                android:textColor="@color/purple_700"
+                android:backgroundTint="@color/gray"></Button>
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="   블로그 : "></TextView>
+
+            <Button
+                android:id="@+id/review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://chanmi1.tistory.com/"
+                android:textColor="@color/purple_700"
+                android:backgroundTint="@color/gray"></Button>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

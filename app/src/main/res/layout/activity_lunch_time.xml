@@ -219,36 +219,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" 학생 정보를 입력하면 QR코드가 지급되며 \nQR코드를 스캔하면 학생 정보를 볼 수 \n있다."
+            android:text="\n 학생 정보를 입력하면 QR코드가 지급되며 QR코드를 스캔하면 학생 정보를 볼 수 있습니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="신동민\n박민주\n이대용\n최하랑"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="- 개발자 - \n신동민   \n박민주   \n이대용   \n최하랑   \n"
+        android:gravity="right|bottom"
+        android:textSize="7pt" />
 
 </LinearLayout>

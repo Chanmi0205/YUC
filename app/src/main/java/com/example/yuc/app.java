@@ -10,16 +10,36 @@ import android.widget.TextView;
 
 public class app extends AppCompatActivity{
 
+    private Button rps_;
     private Button myGrade;
     private Button timing;
     private Button notepad;
     private Button gun_;
     private Button lunchTime;
+    private Button storyGame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app);
+
+        storyGame = findViewById(R.id.storyGame);
+        storyGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(app.this, com.example.yuc.storyGame.class);
+                startActivity(intent);
+            }
+        });
+
+        rps_ = findViewById(R.id.rps_);
+        rps_.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(app.this, rps_.class);
+                startActivity(intent);
+            }
+        });
 
         myGrade = findViewById(R.id.myGrade);
         myGrade.setOnClickListener(new View.OnClickListener() {

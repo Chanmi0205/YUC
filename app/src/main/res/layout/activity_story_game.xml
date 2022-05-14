@@ -219,36 +219,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="줄거리"
+            android:text="\n 주인공은 대회를 앞두고 학교에서 대회 준비를 하고 있다가 잠들어버렸습니다. \n\n자고나보니 형이 죽은 것을 인지하고 학교 곳곳을 돌아다니며 단서를 찾으며 용의자를 찾는 게임입니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="박지원\n김택규\n이서준\n배준영"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:text="- 개발자 - \n박지원   \n김택규   \n이서준   \n배준영   \n"
+        android:textColor="@color/white"
+        android:textSize="6pt" />
 
 </LinearLayout>

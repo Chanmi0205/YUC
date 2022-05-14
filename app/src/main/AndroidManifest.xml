@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yuc">
+    package="com.example.yuc" >
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/rogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/rogo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.YUC">
+        android:theme="@style/Theme.YUC" >
+        <activity
+            android:name=".chan"
+            android:exported="true" />
+        <activity
+            android:name=".action"
+            android:exported="true" />
+        <activity
+            android:name=".rps_"
+            android:exported="true" />
         <activity
             android:name=".storyGame"
             android:exported="true" />
@@ -31,29 +40,17 @@
             android:name=".mygrade"
             android:exported="true" />
         <activity
-            android:name=".game"
-            android:exported="true" />
-        <activity
             android:name=".app"
             android:exported="true" />
         <activity
             android:name=".site"
             android:exported="true" />
         <activity
-            android:name=".activity"
-            android:exported="true" />
-        <activity
-            android:name=".set"
-            android:exported="true" />
-        <activity
-            android:name=".portfolie"
-            android:exported="true" />
-        <activity
             android:name=".YUC_2"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

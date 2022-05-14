@@ -8,7 +8,6 @@
     android:orientation="vertical"
     tools:context=".mygrade">
 
-
     <View
         android:background="@color/white"
         android:layout_width="150dp"
@@ -220,37 +219,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" 성적을 관리할 수 있는 앱으로서 계산기\n기능이 있고, 성적을 기록할 수 있는 \n기능도 있습니다. 또한 대입 사이트에 대해 \n소개하는 페이지도 있습니다."
+            android:text="\n 성적을 관리할 수 있고 대입사이트 정보도 담겨있는 앱입니다.\n\n 성적을 기록할 수 있는 기능, 계산 기능 등 여러 기능이 있습니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:text="- 개발자 - \n도지선   \n양채영   \n배준영   \n최하랑   \n"
+        android:textColor="@color/white"
+        android:textSize="7pt"
+        android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="도지선\n양채영\n배준영\n최하랑"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
 
 
 

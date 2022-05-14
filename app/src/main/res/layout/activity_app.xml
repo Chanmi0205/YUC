@@ -16,7 +16,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
         android:text="YUC"
         android:textColor="@color/white"
         android:textSize="10pt"
@@ -121,6 +121,29 @@
         android:layout_height="20dp"
         tools:layout_editor_absoluteY="10dp">
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/rps_"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="베팅 가위바위보게임"></Button>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteY="10dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/storyGame"
+        android:layout_gravity="center"
+        android:text="상미고 스토리게임"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:background="@color/bu1"></Button>
 
 
 

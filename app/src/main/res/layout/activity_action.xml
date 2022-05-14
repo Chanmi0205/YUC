@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical"
+    tools:context=".action">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:background="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="YUC"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:gravity="center_horizontal"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="2021년 2학기 때 했던 동아리 발표회를 소개해볼게요!\n\n이번 동아리 발표회는 크리스마스 테마로 분위기를 내고 각 부서별로 다양한 활동을 진행하였습니다."></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:background="@drawable/activity_1"></ImageView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="위에 보시는 화면은 동아리 발표회를 준비하면서 찍은 사진입니다!\n\n로비&amp;복도에서는 포토존을 운영하고 농구게임 vr체험을 진행하였습니다."></TextView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="10dp">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <ImageView
+                android:layout_width="800px"
+                android:layout_height="400px"
+                android:scaleType="centerInside"
+                android:background="@drawable/activity_2"></ImageView>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="그리고 앱1실에서는 ADC, 여울컴에서 만들었던 앱을 전시하였으며,"></TextView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="10dp">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <ImageView
+                android:layout_width="780px"
+                android:layout_height="500px"
+                android:scaleType="centerInside"
+                android:background="@drawable/activity_3"></ImageView>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="앱2실에서는 영화 대사 듣고 맞추기, 수도 맞추기, 여울컴 스펠링 등 정해진 시간에 퀴즈 맞추면 상품을 주는 퀴즈 이벤트를 진행하였습니다."></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:scaleType="centerInside"
+            android:background="@drawable/activity_6"></ImageView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="토이실에서는 VR과 여울컴에서 만든 게임을 체험할 수 있는 부서였으며, 총괄팀에서는 각 팀의 예산 관리와 진행 현황을 매번 진행하고 전체적인 관리하였습니다!"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="이렇게 2022년 1월, 동아리 발표회를 진행하였습니다! \n\n 비록 오래 지났지만 코로나로 인해 여러 활동이 제한됬었는데 이런 활동이라도 하니 좋은 추억을 남긴 것 같아 기쁘네요!"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="10dp">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -12,30 +12,30 @@ import java.nio.file.Path;
 
 public class YUC_2 extends AppCompatActivity {
 
-    private Button portfolie;
+    private Button app;
     private Button site;
-    private Button activity;
-    private Button set;
+    private Button action;
+    private Button chan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yuc2);
 
-        set = findViewById(R.id.set);
-        set.setOnClickListener(new View.OnClickListener() {
+        chan = findViewById(R.id.chan);
+        chan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(YUC_2.this, set.class);
+                Intent intent = new Intent(YUC_2.this, chan.class);
                 startActivity(intent);
             }
         });
 
-        activity = findViewById(R.id.activity);
-        activity.setOnClickListener(new View.OnClickListener() {
+        action = findViewById(R.id.action);
+        action.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(YUC_2.this, activity.class);
+                Intent intent = new Intent(YUC_2.this, action.class);
                 startActivity(intent);
             }
         });
@@ -49,11 +49,11 @@ public class YUC_2 extends AppCompatActivity {
             }
         });
 
-        portfolie = findViewById(R.id.portfolie);
-        portfolie.setOnClickListener(new View.OnClickListener() {
+        app = findViewById(R.id.app);
+        app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(YUC_2.this, portfolie.class);
+                Intent intent = new Intent(YUC_2.this, app.class);
                 startActivity(intent);
             }
         });

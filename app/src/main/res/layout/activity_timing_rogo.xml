@@ -219,37 +219,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" 알람을 등록하여 정해진 시간에 알람이\n울리는 어플입니다. \n \n알람 외에도 타이머 기능이 있으며 정해진\n시간이 지나게 된다면 알람이 울립니다."
+            android:text="\n 알람을 등록하여 정해진 시간에 알람이\n울리는 어플입니다. \n\n알람 외에도 타이머 기능이 있으며 정해진 시간이 지나게 된다면 알람이 울립니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="- 개발자 - \n최지민   \n홍지민   \n이대용   \n"
+        android:gravity="right|bottom"
+        android:textSize="7pt" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="최지민\n홍지민\n이대용"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
 
 
 

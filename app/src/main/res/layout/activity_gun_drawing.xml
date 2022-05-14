@@ -219,36 +219,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" 정해진 숫자 내 랜덤으로 여러 번 뽑을 수\n있는 앱입니다. 마지막 번호를 입력하면 \n1부터 마지막 번호까지 push를 몇 번 \n눌렀는지에 따라 랜덤하게 숫자가 \n나옵니다."
+            android:text="\n 정해진 숫자 내 랜덤으로 여러 번 뽑을 수\n있는 앱입니다. \n\n마지막 번호를 입력하면 1부터 마지막 번호까지 push를 몇 번 눌렀는지에 따라 랜덤하게 숫자가 나옵니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
-
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="최지민"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="- 개발자 - \n최지민   \n"
+        android:gravity="right|bottom"
+        android:textSize="7pt" />
 
 </LinearLayout>

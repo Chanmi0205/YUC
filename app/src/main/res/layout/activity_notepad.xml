@@ -220,40 +220,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" 간단히 필요한 내용을 메모할 수 있고 \n그 내용을 공유할 수 있는 앱입니다. \n앱의 기능으로는 글자 색과  배경 색을 \n바꿀 수 있는 기능이 존재하며 그 외에도 \n지우기, 초기화 기능이 있습니다."
+            android:text="\n 간단히 필요한 내용을 메모할 수 있고 그 내용을 공유할 수 있는 앱입니다. \n\n 글자 색과  배경 색을 바꿀 수 있는 기능, 지우기, 초기화 기능 등 다양한 기능이 있습니다."
             android:textColor="@color/white"
             android:textSize="10pt" />
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:orientation="vertical"
-        android:gravity="bottom">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="개발자"
-            android:textStyle="bold"
-            android:layout_gravity="right"
-            android:textSize="10pt" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="박민주\n박찬미"
-            android:layout_gravity="right"
-            android:textSize="6pt" />
-
-    </LinearLayout>
-
-
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:text="- 개발자 - \n최지민   \n박민주   \n박찬미   \n"
+        android:gravity="right|bottom"
+        android:textSize="7pt" />
 
 </LinearLayout>

@@ -37,7 +37,7 @@
 
 
         <Button
-            android:id="@+id/portfolie"
+            android:id="@+id/app"
             android:layout_width="175dp"
             android:layout_height="297dp"
             android:backgroundTint="@color/main_2"
@@ -100,7 +100,7 @@
 
 
         <Button
-            android:id="@+id/activity"
+            android:id="@+id/action"
             android:layout_width="175dp"
             android:layout_height="297dp"
             android:backgroundTint="@color/main_2"
@@ -128,11 +128,11 @@
 
 
         <Button
-            android:id="@+id/set"
+            android:id="@+id/chan"
             android:layout_width="175dp"
             android:layout_height="297dp"
             android:backgroundTint="@color/main_2"
-            android:text="| 04 |\n\n\n 설정 \n"
+            android:text="| 04 |\n\n\n 개발자 \n"
             android:textSize="8pt"></Button>
 
         <androidx.constraintlayout.widget.ConstraintLayout
